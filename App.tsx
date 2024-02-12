@@ -1,23 +1,21 @@
 import React from 'react';
 
-import {Text, View, SafeAreaView, TextInput, TouchableOpacity, StyleSheet, } from 'react-native';
-import {
-  Avatar
-} from 'react-native-elements'
+import Navigation from './src/navigation';
+import { 
+  SafeAreaView , 
+  StyleSheet
+} from 'react-native';
 
-function App() {
-  return (
-    <SafeAreaView>
-      <View>
-        <Avatar rounded title="MD" />
-          <Text>Hello, User</Text>
-      </View>
+function App(): JSX.Element{
+  return(
+    <SafeAreaView style={style.root}>
+      <Navigation/>
     </SafeAreaView>
-  );
+  )
 }
-
-export default App;
-
-const styles = StyleSheet.create({
-  
+const style = StyleSheet.create({
+  root:{
+    flex: 1,
+    backgroundColor:'transparent'
+  }
 })
