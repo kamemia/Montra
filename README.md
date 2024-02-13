@@ -4,10 +4,10 @@
 This project is a Financial tool that is made in react native to assist Budget Tracking.
 
 **Technology used**
-- Tailwind CSS
+<!-- - Tailwind CSS -->
 - React Native
-- Postgres SQL
-- Firebase
+<!-- - Postgres SQL -->
+<!-- - Firebase -->
 # Running the project
 ## Step 1: Start the Metro Server
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
